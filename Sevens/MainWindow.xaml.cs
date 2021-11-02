@@ -23,6 +23,7 @@ namespace Sevens
         public MainWindow()
         {
             InitializeComponent();
+            //
         }
     }
 }
