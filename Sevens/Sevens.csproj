@@ -7,13 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="10C.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Cards\" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="10C.jpg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <Resource Include="10C.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

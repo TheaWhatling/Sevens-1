@@ -41,7 +41,21 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <Image Name="C10" Grid.Column="9" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
-        <Button Name="B1" Grid.Column="9" Grid.Row="4" ></Button>
+        <Image Name="C1" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
+        <Image Name="C2" Grid.Column="4" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
+        <Image Name="C3" Grid.Column="5" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
+        <Image Name="C4" Grid.Column="6" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
+        <Image Name="C5" Grid.Column="7" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
+        <Image Name="C6" Grid.Column="8" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
+        <Image Name="C7" Grid.Column="9" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
+        <Image Name="C8" Grid.Column="10" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
+        <Image Name="C9" Grid.Column="11" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
+        <Image Name="C10" Grid.Column="12" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
+        <Image Name="C11" Grid.Column="13" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
+        <Image Name="C12" Grid.Column="14" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
+        <Image Name="C13" Grid.Column="15" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
+        
     </Grid>
+
+
 </Window>
