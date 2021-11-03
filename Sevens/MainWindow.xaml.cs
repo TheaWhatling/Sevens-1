@@ -20,10 +20,14 @@ namespace Sevens
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Sevens s;
+
         public MainWindow()
         {
             InitializeComponent();
-            //
+            s = new Sevens();
+            DataContext = s;
+
         }
     }
 }

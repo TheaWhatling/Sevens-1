@@ -54,8 +54,6 @@
         <Image Name="C11" Grid.Column="13" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
         <Image Name="C12" Grid.Column="14" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
         <Image Name="C13" Grid.Column="15" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
-        
+        <Button Name="testWPF" Grid.Column="6" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center"/>
     </Grid>
-
-
 </Window>
