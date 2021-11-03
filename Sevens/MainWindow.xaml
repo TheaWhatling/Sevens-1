@@ -48,20 +48,20 @@
 
         <Image Name="S1" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="{Binding tab.pos[0].c, Converter={StaticResource VConv}}"/>
         <Image Name="S2" Grid.Column="4" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="{Binding tab.pos[1].c, Converter={StaticResource VConv}}"/>
-        <Image Name="S3" Grid.Column="5" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Hidden"/>
-        <Image Name="S4" Grid.Column="6" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Hidden"/>
-        <Image Name="S5" Grid.Column="7" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Hidden"/>
-        <Image Name="S6" Grid.Column="8" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Hidden"/>
-        <Image Name="S7" Grid.Column="9" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Hidden"/>
-        <Image Name="S8" Grid.Column="10" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Hidden"/>
-        <Image Name="S9" Grid.Column="11" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Hidden"/>
-        <Image Name="S10" Grid.Column="12" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Hidden"/>
-        <Image Name="S11" Grid.Column="13" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Hidden"/>
-        <Image Name="S12" Grid.Column="14" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Hidden"/>
-        <Image Name="S13" Grid.Column="15" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Visible"/>
+        <Image Name="S3" Grid.Column="5" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="{Binding tab.pos[2].c, Converter={StaticResource VConv}}"/>
+        <Image Name="S4" Grid.Column="6" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="{Binding tab.pos[3].c, Converter={StaticResource VConv}}"/>
+        <Image Name="S5" Grid.Column="7" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="{Binding tab.pos[4].c, Converter={StaticResource VConv}}"/>
+        <Image Name="S6" Grid.Column="8" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="{Binding tab.pos[5].c, Converter={StaticResource VConv}}"/>
+        <Image Name="S7" Grid.Column="9" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="{Binding tab.pos[6].c, Converter={StaticResource VConv}}"/>
+        <Image Name="S8" Grid.Column="10" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="{Binding tab.pos[7].c, Converter={StaticResource VConv}}"/>
+        <Image Name="S9" Grid.Column="11" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="{Binding tab.pos[8].c, Converter={StaticResource VConv}}"/>
+        <Image Name="S10" Grid.Column="12" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="{Binding tab.pos[9].c, Converter={StaticResource VConv}}"/>
+        <Image Name="S11" Grid.Column="13" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="{Binding tab.pos[10].c, Converter={StaticResource VConv}}"/>
+        <Image Name="S12" Grid.Column="14" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="{Binding tab.pos[11].c, Converter={StaticResource VConv}}"/>
+        <Image Name="S13" Grid.Column="15" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="{Binding tab.pos[12].c, Converter={StaticResource VConv}}"/>
 
-        <Image Name="H1" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Hidden"/>
-        <Image Name="H2" Grid.Column="4" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Hidden"/>
+        <Image Name="H1" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="{Binding tab.pos[13].c, Converter={StaticResource VConv}}"/>
+        <Image Name="H2" Grid.Column="4" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="{Binding tab.pos[14].c, Converter={StaticResource VConv}}"/>
         <Image Name="H3" Grid.Column="5" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Hidden"/>
         <Image Name="H4" Grid.Column="6" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Hidden"/>
         <Image Name="H5" Grid.Column="7" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Source="10C.jpg" Stretch="Fill" Visibility="Hidden"/>
