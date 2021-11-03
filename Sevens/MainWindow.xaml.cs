@@ -32,7 +32,7 @@ namespace Sevens
 
         private void testWPF_Click(object sender, RoutedEventArgs e)
         {
-            s.layCard();
+            s.layCard(Convert.ToInt32(textB.Text));
         }
     }
 }

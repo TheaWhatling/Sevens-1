@@ -24,9 +24,9 @@ namespace Sevens
 
         }
 
-        public void layCard()
+        public void layCard(int x)
         {
-            table.Update(new Card(0, 0));
+            table.Update(new Card(x/13, x % 13));
         }
 
     }
