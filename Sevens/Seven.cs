@@ -4,19 +4,29 @@ using System.Text;
 
 namespace Sevens
 {
-    class Sevens
+    class Seven
     {
         public Table table;
 
-        public Sevens()
+        public Seven()
         {
             table = new Table();
 
         }
 
+        public Table tab
+        {
+            get
+            {
+                return table;
+            }
+
+
+        }
+
         public void layCard()
         {
-            table.Update(new Card(1, 1));
+            table.Update(new Card(0, 0));
         }
 
     }

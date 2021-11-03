@@ -9,12 +9,12 @@ using System.Windows.Media;
 
 namespace Sevens
 {
-    class Position
+    class Position : INotifyPropertyChanged
     {
        
             public event PropertyChangedEventHandler PropertyChanged;
 
-            private Card card;
+            private Card card = null;
             public Position(Card x)
             {
                 card = x;
@@ -29,7 +29,7 @@ namespace Sevens
                 set
                 {
                     card = value;
-                    OnPropertyChanged("Card");
+                    OnPropertyChanged("c");
                 }
             }
 

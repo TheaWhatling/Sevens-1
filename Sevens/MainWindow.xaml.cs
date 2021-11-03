@@ -20,14 +20,19 @@ namespace Sevens
     /// </summary>
     public partial class MainWindow : Window
     {
-        private Sevens s;
+        private Seven s;
 
         public MainWindow()
         {
             InitializeComponent();
-            s = new Sevens();
+            s = new Seven();
             DataContext = s;
 
+        }
+
+        private void testWPF_Click(object sender, RoutedEventArgs e)
+        {
+            s.layCard();
         }
     }
 }
