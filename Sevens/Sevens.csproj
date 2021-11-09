@@ -11,10 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Cards\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="10C.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
