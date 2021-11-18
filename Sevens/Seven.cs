@@ -11,7 +11,6 @@ namespace Sevens
         public Seven()
         {
             table = new Table();
-
         }
 
         public Table tab
@@ -20,14 +19,11 @@ namespace Sevens
             {
                 return table;
             }
-
-
         }
 
         public void layCard(int x)
         {
             table.Update(new Card(x/13, x % 13));
         }
-
     }
 }

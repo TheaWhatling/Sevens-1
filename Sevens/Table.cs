@@ -14,8 +14,7 @@ namespace Sevens
             for(int x=0; x<52; x = x + 1)
             {
                 C.Add(new Position(null));
-            }
-            
+            }  
         }
 
         public ObservableCollection<Position> pos
@@ -24,8 +23,6 @@ namespace Sevens
             {
                 return C;
             }
-
-
         }
 
         public void Update(Card v)
@@ -39,8 +36,6 @@ namespace Sevens
                 
             }
         }
-
     }
-
 }
 

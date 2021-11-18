@@ -13,7 +13,6 @@ namespace Sevens
     {
        
             public event PropertyChangedEventHandler PropertyChanged;
-
             private Card card = null;
             public Position(Card x)
             {

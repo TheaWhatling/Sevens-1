@@ -12,7 +12,6 @@ namespace Sevens
         {
             this.suit = suit;
             this.pos =pos;
-
         }
         public int getSuit()
         {

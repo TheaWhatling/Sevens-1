@@ -15,15 +15,10 @@ namespace Sevens
             Visibility visible;
 
             if (value == null)
-
             {
-
                 visible = Visibility.Hidden;
-
             }
-
             else visible = Visibility.Visible;
-
             return (Visibility)visible;
         }
 

@@ -2,8 +2,6 @@
 
 namespace Sevens
 {
-
-
     class Queue
     {
         //private Player[] players;
