@@ -1,26 +1,29 @@
 ﻿using System;
 
-abstract class Player
+namespace Sevens
 {
-    public Player()
+    public class Player
     {
+        public Player()
+        {
 
+        }
+
+        //public void AddToHand(Card newCard)
+        //{
+
+        //}
+
+        //public abstract Card Move();
+
+        //public void RemoveCard()
+        //{
+
+        //}
+
+        //public void SortCards()
+        //{
+
+        //}
     }
-
-    //public void AddToHand(Card newCard)
-    //{
-
-    //}
-
-    //public abstract Card Move();
-
-    //public void RemoveCard()
-    //{
-
-    //}
-
-    //public void SortCards()
-    //{
-
-    //}
 }

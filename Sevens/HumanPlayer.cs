@@ -1,8 +1,13 @@
 ﻿using System;
 
-public class HumanPlayer
+namespace Sevens
 {
-	public HumanPlayer : Player
+
+
+	public class HumanPlayer : Player
 	{
+		public HumanPlayer() : base()
+		{
+		}
 	}
-}
+} 

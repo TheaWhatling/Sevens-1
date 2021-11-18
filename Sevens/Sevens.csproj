@@ -8,12 +8,116 @@
 
   <ItemGroup>
     <None Remove="10C.jpg" />
+    <None Remove="Cards\C1.jpg" />
+    <None Remove="Cards\C10.jpg" />
+    <None Remove="Cards\C11.jpg" />
+    <None Remove="Cards\C12.jpg" />
+    <None Remove="Cards\C13.jpg" />
+    <None Remove="Cards\C2.jpg" />
+    <None Remove="Cards\C3.jpg" />
+    <None Remove="Cards\C4.jpg" />
+    <None Remove="Cards\C5.jpg" />
+    <None Remove="Cards\C6.jpg" />
+    <None Remove="Cards\C7.jpg" />
+    <None Remove="Cards\C8.jpg" />
+    <None Remove="Cards\C9.jpg" />
+    <None Remove="Cards\D1.jpg" />
+    <None Remove="Cards\D10.jpg" />
+    <None Remove="Cards\D11.jpg" />
+    <None Remove="Cards\D12.jpg" />
+    <None Remove="Cards\D13.jpg" />
+    <None Remove="Cards\D2.jpg" />
+    <None Remove="Cards\D3.jpg" />
+    <None Remove="Cards\D4.jpg" />
+    <None Remove="Cards\D5.jpg" />
+    <None Remove="Cards\D6.jpg" />
+    <None Remove="Cards\D7.jpg" />
+    <None Remove="Cards\D8.jpg" />
+    <None Remove="Cards\D9.jpg" />
+    <None Remove="Cards\H1.jpg" />
+    <None Remove="Cards\H10.jpg" />
+    <None Remove="Cards\H11.jpg" />
+    <None Remove="Cards\H12.jpg" />
+    <None Remove="Cards\H13.jpg" />
+    <None Remove="Cards\H2.jpg" />
+    <None Remove="Cards\H3.jpg" />
+    <None Remove="Cards\H4.jpg" />
+    <None Remove="Cards\H5.jpg" />
+    <None Remove="Cards\H6.jpg" />
+    <None Remove="Cards\H7.jpg" />
+    <None Remove="Cards\H8.jpg" />
+    <None Remove="Cards\H9.jpg" />
+    <None Remove="Cards\S1.jpg" />
+    <None Remove="Cards\S10.jpg" />
+    <None Remove="Cards\S11.jpg" />
+    <None Remove="Cards\S12.jpg" />
+    <None Remove="Cards\S13.jpg" />
+    <None Remove="Cards\S2.jpg" />
+    <None Remove="Cards\S3.jpg" />
+    <None Remove="Cards\S4.jpg" />
+    <None Remove="Cards\S5.jpg" />
+    <None Remove="Cards\S6.jpg" />
+    <None Remove="Cards\S7.jpg" />
+    <None Remove="Cards\S8.jpg" />
+    <None Remove="Cards\S9.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="10C.jpg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Cards\C1.jpg" />
+    <Resource Include="Cards\C10.jpg" />
+    <Resource Include="Cards\C11.jpg" />
+    <Resource Include="Cards\C12.jpg" />
+    <Resource Include="Cards\C13.jpg" />
+    <Resource Include="Cards\C2.jpg" />
+    <Resource Include="Cards\C3.jpg" />
+    <Resource Include="Cards\C4.jpg" />
+    <Resource Include="Cards\C5.jpg" />
+    <Resource Include="Cards\C6.jpg" />
+    <Resource Include="Cards\C7.jpg" />
+    <Resource Include="Cards\C8.jpg" />
+    <Resource Include="Cards\C9.jpg" />
+    <Resource Include="Cards\D1.jpg" />
+    <Resource Include="Cards\D10.jpg" />
+    <Resource Include="Cards\D11.jpg" />
+    <Resource Include="Cards\D12.jpg" />
+    <Resource Include="Cards\D13.jpg" />
+    <Resource Include="Cards\D2.jpg" />
+    <Resource Include="Cards\D3.jpg" />
+    <Resource Include="Cards\D4.jpg" />
+    <Resource Include="Cards\D5.jpg" />
+    <Resource Include="Cards\D6.jpg" />
+    <Resource Include="Cards\D7.jpg" />
+    <Resource Include="Cards\D8.jpg" />
+    <Resource Include="Cards\D9.jpg" />
+    <Resource Include="Cards\H1.jpg" />
+    <Resource Include="Cards\H10.jpg" />
+    <Resource Include="Cards\H11.jpg" />
+    <Resource Include="Cards\H12.jpg" />
+    <Resource Include="Cards\H13.jpg" />
+    <Resource Include="Cards\H2.jpg" />
+    <Resource Include="Cards\H3.jpg" />
+    <Resource Include="Cards\H4.jpg" />
+    <Resource Include="Cards\H5.jpg" />
+    <Resource Include="Cards\H6.jpg" />
+    <Resource Include="Cards\H7.jpg" />
+    <Resource Include="Cards\H8.jpg" />
+    <Resource Include="Cards\H9.jpg" />
+    <Resource Include="Cards\S1.jpg" />
+    <Resource Include="Cards\S10.jpg" />
+    <Resource Include="Cards\S11.jpg" />
+    <Resource Include="Cards\S12.jpg" />
+    <Resource Include="Cards\S13.jpg" />
+    <Resource Include="Cards\S2.jpg" />
+    <Resource Include="Cards\S3.jpg" />
+    <Resource Include="Cards\S4.jpg" />
+    <Resource Include="Cards\S5.jpg" />
+    <Resource Include="Cards\S6.jpg" />
+    <Resource Include="Cards\S7.jpg" />
+    <Resource Include="Cards\S8.jpg" />
+    <Resource Include="Cards\S9.jpg" />
   </ItemGroup>
 
 </Project>

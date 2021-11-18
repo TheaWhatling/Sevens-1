@@ -1,22 +1,27 @@
 ﻿using System;
 
-class Queue
+namespace Sevens
 {
-    //private Player[] players;
-    //public const int SIZEOFQUEUE = 4;
-    //private int CurrentPlayer;
 
-    //public Player GetCurrentPlayer()
-    //{
 
-    //}
-    //public Player GetNextPlayer()
-    //{
+    class Queue
+    {
+        //private Player[] players;
+        //public const int SIZEOFQUEUE = 4;
+        //private int CurrentPlayer;
 
-    //}
+        //public Player GetCurrentPlayer()
+        //{
 
-    //public Player[] GetQueue()
-    //{
-    //    return players;
-    //}
+        //}
+        //public Player GetNextPlayer()
+        //{
+
+        //}
+
+        //public Player[] GetQueue()
+        //{
+        //    return players;
+        //}
+    }
 }

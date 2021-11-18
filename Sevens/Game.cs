@@ -1,8 +1,11 @@
 ﻿using System;
 
-public class Game
+namespace Sevens
 {
-	public Game()
+	public class Game
 	{
+		public Game()
+		{
+		}
 	}
 }
