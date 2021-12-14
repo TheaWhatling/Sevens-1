@@ -6,7 +6,7 @@ namespace Sevens
 	{
 		public Game()
 		{
-
+			
 		}
 	}
 }
