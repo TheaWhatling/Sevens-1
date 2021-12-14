@@ -22,5 +22,16 @@ namespace Sevens
             return pos;
         }
 
+        public Boolean EqualToSevenOfDiamonds()
+        {
+            if ((this.suit == 0) && (this.pos == 7))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
