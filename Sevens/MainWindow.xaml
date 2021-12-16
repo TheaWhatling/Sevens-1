@@ -88,8 +88,6 @@
         <Image Name="D12" Grid.Column="14" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Source="/Cards/D12.jpg" Stretch="Fill" Visibility="{Binding tab.pos[37].c, Converter={StaticResource VConv}}"/>
         <Image Name="D13" Grid.Column="15" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Source="/Cards/D13.jpg" Stretch="Fill" Visibility="{Binding tab.pos[38].c, Converter={StaticResource VConv}}"/>
 
-
-
         <Image Name="C1" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="/Cards/C1.jpg" Stretch="Fill" Visibility="{Binding tab.pos[39].c, Converter={StaticResource VConv}}"/>
         <Image Name="C2" Grid.Column="4" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="/Cards/C2.jpg" Stretch="Fill" Visibility="{Binding tab.pos[40].c, Converter={StaticResource VConv}}"/>
         <Image Name="C3" Grid.Column="5" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="/Cards/C3.jpg" Stretch="Fill" Visibility="{Binding tab.pos[41].c, Converter={StaticResource VConv}}"/>
@@ -103,7 +101,7 @@
         <Image Name="C11" Grid.Column="13" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="/Cards/C11.jpg" Stretch="Fill" Visibility="{Binding tab.pos[49].c, Converter={StaticResource VConv}}"/>
         <Image Name="C12" Grid.Column="14" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="/Cards/C12.jpg" Stretch="Fill" Visibility="{Binding tab.pos[50].c, Converter={StaticResource VConv}}"/>
         <Image Name="C13" Grid.Column="15" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Source="/Cards/C13.jpg" Stretch="Fill" Visibility="{Binding tab.pos[51].c, Converter={StaticResource VConv}}"/>
-        <Button Name="testWPF" Grid.Column="6" HorizontalAlignment="Center" Grid.Row="6" Width="30" Margin="0,25,0,0" Height="20" VerticalAlignment="Top" Content="hit" Click="testWPF_Click"/> 
+        <Button Name="testWPF" Grid.Column="6" HorizontalAlignment="Center" Grid.Row="6" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="place" Click="testWPF_Click"/> 
         <TextBox Name="textB"  Grid.Column="7" Grid.Row="6"   ></TextBox>
     </Grid>
 </Window>

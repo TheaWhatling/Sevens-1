@@ -34,5 +34,10 @@ namespace Sevens
             deck.Shuffle(); 
         }
 
+      
+        public void deal()
+        { 
+
+        }
     }
 }
