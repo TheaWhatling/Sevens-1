@@ -11,7 +11,7 @@ namespace Sevens
 
         public Table()
         {
-            for(int x=0; x<52; x = x + 1)
+            for(int x = 0; x < 52; x = x + 1)
             {
                 C.Add(new Position(null));
             }  
@@ -27,7 +27,7 @@ namespace Sevens
 
         public void Update(Card v)
         {
-            if (C[v.getSuit()*13 +v.getPos()].c==null)
+            if (C[v.getSuit() * 13 + v.getPos()].c == null)
             {
                 C[v.getSuit() * 13 + v.getPos()].c = v;
             }

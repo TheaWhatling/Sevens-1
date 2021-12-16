@@ -40,8 +40,46 @@ namespace Sevens
                 cards[first] = cards[second];
                 cards[second] = tempo;
             }
-            Console.WriteLine(" "); 
+            //Console.WriteLine(" "); 
         }
 
+        public Card GetNextCard() //returns card from top of deck + increments front pointer
+        {
+            int CurrentTop = GetFrontPointer();
+            SetFrontPointer(GetFrontPointer() + 1);
+            return GetDeck()[CurrentTop];
+        } 
+
+        public Boolean IsEmpty() //if no cards are in deck returns true
+        {
+            if (GetFrontPointer() >= decksize)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public void SetFrontPointer(int input)
+        {
+            FrontPointer = input;
+        }
+
+        public void SetDeck(Card[] input)
+        {
+            cards = input;
+        }
+
+        public int GetFrontPointer()
+        {
+            return FrontPointer;
+        }
+
+        public Card[] GetDeck()
+        {
+            return cards;
+        }
     }
 }
