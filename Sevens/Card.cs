@@ -11,7 +11,7 @@ namespace Sevens
         public Card(int suit, int pos)
         {
             this.suit = suit;
-            this.pos =pos;
+            this.pos = pos;
         }
         public int getSuit()
         {
@@ -33,5 +33,46 @@ namespace Sevens
                 return false;
             }
         }
+
+        public string suitIntToString() // check letters are in correct order
+        {
+            if (this.suit == 0)
+            {
+                return "D";
+            }
+            else if (this.suit == 1)
+            {
+                return "H";
+            }
+            else if (this.suit == 2)
+            {
+                return "C";
+            }
+            else
+            {
+                return "S";
+            }
+        }
+
+        //public int suitStringToInt(String s)
+        //{
+        //    if (s == "D")
+        //    {
+        //        return 0;
+        //    }
+        //    else if (s == "H")
+        //    {
+        //        return 1;
+        //    }
+        //    else if (s == "C")
+        //    {
+        //        return 2;
+        //    }
+        //    else
+        //    {
+        //        return 3;
+        //    }
+        //}
+
     }
 }
