@@ -40,7 +40,6 @@ namespace Sevens
                 cards[first] = cards[second];
                 cards[second] = tempo;
             }
-            //Console.WriteLine(" "); 
         }
 
         public Card GetNextCard() //returns card from top of deck + increments front pointer

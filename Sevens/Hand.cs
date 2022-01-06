@@ -8,11 +8,11 @@ namespace Sevens
     {
         private Card[] hand = new Card[13];
 
-        private cardsstored = 0;
+        private int cardsstored; //position 
 
-        addCard(Card c)
+        public Hand()
         {
-
+            cardsstored = 0;
         }
 
         public void addCardToHand(Card c)
@@ -20,6 +20,7 @@ namespace Sevens
             if (cardsstored < 13)
             {
                 hand[cardsstored] = c;
+                cardsstored = cardsstored + 1;
             }
         }
     }
