@@ -4,23 +4,23 @@ namespace Sevens
 {
     abstract class Player
     {
-        private List<Card> listOfCards; 
+        private List<Card> ListOfCards; 
 
         public Player()
         {
-            listOfCards = new List<Card>();
+            ListOfCards = new List<Card>();
         }
 
         //takes Card to be added to hand and adds it to the end of the listOfCards
         public void AddToHand(Card newCard)
         {
-            listOfCards.Add(newCard);
+            ListOfCards.Add(newCard);
         }
 
         //returns true if player's hand contains the 7 of diamonds
         public Boolean CheckSevenDiamonds()
         {
-            foreach (Card card in listOfCards)
+            foreach (Card card in ListOfCards)
             {
                 if (card.EqualToSevenOfDiamonds())
                 {
@@ -48,12 +48,12 @@ namespace Sevens
 
         public void RemoveCard(Card cardToBeRemoved)
         {
-            listOfCards.Remove(cardToBeRemoved);
+            ListOfCards.Remove(cardToBeRemoved);
         }
 
         public void SortCards(Boolean bySuit)
         {
-            listOfCards = MergeSort(listOfCards, bySuit);
+            ListOfCards = MergeSort(ListOfCards, bySuit);
         }
 
         public virtual Boolean HandEmpty()
@@ -169,12 +169,12 @@ namespace Sevens
         //returns int that = length of listOfCards
         public virtual int GetCurrentSize()
         {
-            return listOfCards.Count;
+            return ListOfCards.Count;
         }
 
         public List<Card> GetCards()
         {
-            return listOfCards;
+            return ListOfCards;
         }
     }
 }

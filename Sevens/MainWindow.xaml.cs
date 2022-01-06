@@ -35,5 +35,10 @@ namespace Sevens
             s.layCard(Convert.ToInt32(textB.Text));
             s.shuffle();
         }
+
+        private void pos0_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

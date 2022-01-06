@@ -13,6 +13,7 @@ namespace Sevens
             this.suit = suit;
             this.pos = pos;
         }
+       
         public int getSuit()
         {
             return suit;
@@ -38,7 +39,7 @@ namespace Sevens
         {
             if (this.suit == 0)
             {
-                return "D";
+                return "S";
             }
             else if (this.suit == 1)
             {
@@ -46,11 +47,11 @@ namespace Sevens
             }
             else if (this.suit == 2)
             {
-                return "C";
+                return "D";
             }
             else
             {
-                return "S";
+                return "C";
             }
         }
 
