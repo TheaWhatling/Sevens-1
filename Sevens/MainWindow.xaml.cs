@@ -40,5 +40,53 @@ namespace Sevens
         {
 
         }
+        private void pos1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void pos2_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void pos3_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void pos4_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void pos5_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void pos6_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void pos7_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void pos8_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void pos9_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void pos10_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void pos11_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        private void pos12_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
