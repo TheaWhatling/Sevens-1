@@ -105,18 +105,18 @@
         <Button Name="testWPF" Grid.Column="6" HorizontalAlignment="Center" Grid.Row="6" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="place" Click="testWPF_Click"/> 
         <TextBox Name="textB"  Grid.Column="7" Grid.Row="6"   ></TextBox>
 
-        <Button Name="pos0" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="place" Click="pos0_Click"/>
-        <Button Name="pos1" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="place" Click="pos1_Click"/>
-        <Button Name="pos2" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="place" Click="pos2_Click"/>
-        <Button Name="pos3" Grid.Column="4" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="place" Click="pos3_Click"/>
-        <Button Name="pos4" Grid.Column="5" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="place" Click="pos4_Click"/>
-        <Button Name="pos5" Grid.Column="6" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="place" Click="pos5_Click"/>
-        <Button Name="pos6" Grid.Column="7" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="place" Click="pos6_Click"/>
-        <Button Name="pos7" Grid.Column="8" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="place" Click="pos7_Click"/>
-        <Button Name="pos8" Grid.Column="9" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="place" Click="pos8_Click"/>
-        <Button Name="pos9" Grid.Column="10" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="place" Click="pos9_Click"/>
-        <Button Name="pos10" Grid.Column="11" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="place" Click="pos10_Click"/>
-        <Button Name="pos11" Grid.Column="12" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="place" Click="pos11_Click"/>
-        <Button Name="pos12" Grid.Column="13" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="place" Click="pos12_Click"/>
+        <Button Name="pos0" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="c1" Click="pos0_Click"/>
+        <Button Name="pos1" Grid.Column="4" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="c1" Click="pos1_Click"/>
+        <Button Name="pos2" Grid.Column="5" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="c1" Click="pos2_Click"/>
+        <Button Name="pos3" Grid.Column="6" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="c1" Click="pos3_Click"/>
+        <Button Name="pos4" Grid.Column="7" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="c1" Click="pos4_Click"/>
+        <Button Name="pos5" Grid.Column="8" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="c1" Click="pos5_Click"/>
+        <Button Name="pos6" Grid.Column="9" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="c1" Click="pos6_Click"/>
+        <Button Name="pos7" Grid.Column="10" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="c1" Click="pos7_Click"/>
+        <Button Name="pos8" Grid.Column="11" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="c1" Click="pos8_Click"/>
+        <Button Name="pos9" Grid.Column="12" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="c1" Click="pos9_Click"/>
+        <Button Name="pos10" Grid.Column="13" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="c1" Click="pos10_Click"/>
+        <Button Name="pos11" Grid.Column="14" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="c1" Click="pos11_Click"/>
+        <Button Name="pos12" Grid.Column="15" HorizontalAlignment="Center" Grid.Row="7" Width="40" Margin="0,15,0,0" Height="20" VerticalAlignment="Top" Content="c1" Click="pos12_Click"/>
     </Grid>
 </Window>

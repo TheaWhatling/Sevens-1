@@ -7,12 +7,14 @@ namespace Sevens
     class Seven
     {
         public Table table;
-        public Deck deck; 
+        public Deck deck;
+        private Queue q;
 
         public Seven()
         {
             table = new Table();
-            deck = new Deck(); 
+            deck = new Deck();
+            q = new Queue(new Player(), new Player(), new Player(), new Player());
         }
 
         public Table tab

@@ -2,7 +2,7 @@
 
 namespace Sevens
 {
-    abstract class Player
+    class Player
     {
         private Hand hand;
 
