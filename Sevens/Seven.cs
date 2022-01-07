@@ -37,7 +37,7 @@ namespace Sevens
       
         public void deal()
         { 
-
+            
         }
     }
 }
