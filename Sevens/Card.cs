@@ -8,7 +8,7 @@ namespace Sevens
     {
         private int suit;
         private int pos;
-        public Card(int suit, int pos) //test
+        public Card(int suit, int pos) 
         {
             this.suit = suit;
             this.pos = pos;
