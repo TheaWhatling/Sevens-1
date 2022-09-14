@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Sevens
 {
-    class Card
+    class Card 
     {
         private int suit;
         private int pos;
