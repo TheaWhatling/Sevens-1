@@ -27,6 +27,12 @@ namespace Sevens
             }
         }
 
+        public Card ReturnCard()
+        {
+            Card c = cards[FrontPointer];
+            FrontPointer = FrontPointer + 1;
+            return c;
+        }
         public void Shuffle()
         {
             Card tempo;

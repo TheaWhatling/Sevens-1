@@ -33,7 +33,7 @@ namespace Sevens
         private void testWPF_Click(object sender, RoutedEventArgs e)
         {
             s.layCard(Convert.ToInt32(textB.Text));
-            s.shuffle();
+            
         }
 
         private void pos0_Click(object sender, RoutedEventArgs e)
@@ -87,6 +87,11 @@ namespace Sevens
         private void pos12_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void Start_Click(object sender, RoutedEventArgs e)
+        {
+            s.start();
         }
     }
 }
