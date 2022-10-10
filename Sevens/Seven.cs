@@ -14,7 +14,7 @@ namespace Sevens
         {
             table = new Table();
             deck = new Deck();
-            q = new Queue(new Player(), new Player(), new Player(), new Player());
+            q = new Queue(new Player(table), new Player(table), new Player(table), new Player(table));
         }
          
         public Table tab
@@ -40,17 +40,19 @@ namespace Sevens
         {
             deck.Shuffle();
 
-            for (int x = 0; x<52; x = x+1)
+            for (int x = 0; x<51; x = x+1)
             {
+                
                 q.addCard(deck.GetNextCard());
             }
-           
+
+            for (int y = 0; y <8; y++)
+            {
+                q.move();
+            }
 
         }
 
-        public void deal()
-        { 
-            
-        }
+       
     }
 }

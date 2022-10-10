@@ -36,6 +36,14 @@ namespace Sevens
                 
             }
         }
+        public bool EmptyTable()
+        {
+            if (C[19] == null)
+            {
+                return true;
+            }
+            else return false;
+        }
     }
 }
 

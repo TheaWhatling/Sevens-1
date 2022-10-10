@@ -5,10 +5,11 @@ namespace Sevens
     class Player
     {
         private Hand hand;
-
-        public Player()
+        private Table table;
+        public Player(Table t)
         {
             hand = new Hand();
+            table = t; 
         }
 
         //takes Card to be added to hand and adds it to the end of the listOfCards
@@ -18,7 +19,7 @@ namespace Sevens
         }
 
         //returns true if player's hand contains the 7 of diamonds
-        public Boolean CheckSevenDiamonds()
+        public Boolean CheckSevenDiamonds() //hearts
         {
 
             return false;
@@ -38,6 +39,14 @@ namespace Sevens
 
         public Card Move()
         {
+            Card temp;
+            if (table.EmptyTable()==true && hand.SearchHand(2,6) != -1)
+            {
+                temp = hand.GetCard(hand.SearchHand(2, 6));
+                hand.SetCard(null , hand.SearchHand(2, 6));
+                table.Update(temp);
+            }
+            
             return null;
         }
 

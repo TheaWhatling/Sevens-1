@@ -42,5 +42,11 @@ namespace Sevens
         {
             currentplayer.p.AddToHand(c);
         }
+
+        public void move()
+        {
+            currentplayer.p.Move();
+            MoveOnToNextPlayer();
+        }
     }
 }

@@ -51,8 +51,11 @@ namespace Sevens
         public Card GetNextCard() //returns card from top of deck + increments front pointer
         {
             int CurrentTop = GetFrontPointer();
-            SetFrontPointer(GetFrontPointer() + 1);
-            return GetDeck()[CurrentTop];
+            
+             SetFrontPointer(GetFrontPointer() + 1);
+             return GetDeck()[CurrentTop];
+           
+          
         } 
 
         public Boolean IsEmpty() //if no cards are in deck returns true
