@@ -26,7 +26,7 @@ namespace Sevens
 
         public int SearchHand(int suit, int card)
         {
-            for (int x = 0; x<13; x++)
+            for (int x = 0; x < 13; x++)
             {
                 if (hand[x] != null)
                 {
@@ -36,6 +36,7 @@ namespace Sevens
                     }
                 }
             }
+            
             return -1;  // -1 = false
         }
 
