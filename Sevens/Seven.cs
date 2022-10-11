@@ -30,12 +30,6 @@ namespace Sevens
             table.Update(new Card(x/13, x % 13));
         }
 
-
-        //public void shuffle()
-        //{
-        //    deck.Shuffle(); 
-        //}
-
         public void start()
         {
             deck.Shuffle();
@@ -50,9 +44,6 @@ namespace Sevens
             {
                 q.move();
             }
-
         }
-
-       
     }
 }

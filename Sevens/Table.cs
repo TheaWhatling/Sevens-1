@@ -31,6 +31,7 @@ namespace Sevens
             {
                 C[v.getSuit() * 13 + v.getPos()].c = v;
             }
+
             else
             {
                 

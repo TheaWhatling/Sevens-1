@@ -28,6 +28,7 @@ namespace Sevens
 
             currentplayer = pnode1;
         }
+
         public Player GetCurrentPlayer()
         {
             return currentplayer.p;

@@ -29,6 +29,7 @@ namespace Sevens
             {
                 return true;
             }
+
             else
             {
                 return false;
@@ -41,39 +42,21 @@ namespace Sevens
             {
                 return "S";
             }
+
             else if (this.suit == 1)
             {
                 return "H";
             }
+
             else if (this.suit == 2)
             {
                 return "D";
             }
+
             else
             {
                 return "C";
             }
         }
-
-        //public int suitStringToInt(String s)
-        //{
-        //    if (s == "D")
-        //    {
-        //        return 0;
-        //    }
-        //    else if (s == "H")
-        //    {
-        //        return 1;
-        //    }
-        //    else if (s == "C")
-        //    {
-        //        return 2;
-        //    }
-        //    else
-        //    {
-        //        return 3;
-        //    }
-        //}
-
     }
 }

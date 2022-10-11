@@ -48,6 +48,5 @@ namespace Sevens
         {
             hand[i] = c; 
         }
-
     }
 }

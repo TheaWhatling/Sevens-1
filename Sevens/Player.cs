@@ -6,6 +6,7 @@ namespace Sevens
     {
         private Hand hand;
         private Table table;
+
         public Player(Table t)
         {
             hand = new Hand();
@@ -21,7 +22,6 @@ namespace Sevens
         //returns true if player's hand contains the 7 of diamonds
         public Boolean CheckSevenDiamonds() //hearts
         {
-
             return false;
         }
 
@@ -55,10 +55,14 @@ namespace Sevens
             
         //}
 
+
+
         //public void SortCards(Boolean bySuit)
         //{
         //    ListOfCards = MergeSort(ListOfCards, bySuit);
         //}
+
+
 
         //public virtual Boolean HandEmpty()
         //{

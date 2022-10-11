@@ -31,6 +31,7 @@ namespace Sevens
         {
             Card c = cards[FrontPointer];
             FrontPointer = FrontPointer + 1;
+
             return c;
         }
         public void Shuffle()
@@ -42,6 +43,7 @@ namespace Sevens
             {
                 int first = random.Next(decksize);
                 int second = random.Next(decksize);
+
                 tempo = cards[first];
                 cards[first] = cards[second];
                 cards[second] = tempo;
@@ -54,8 +56,6 @@ namespace Sevens
             
              SetFrontPointer(GetFrontPointer() + 1);
              return GetDeck()[CurrentTop];
-           
-          
         } 
 
         public Boolean IsEmpty() //if no cards are in deck returns true
@@ -64,6 +64,7 @@ namespace Sevens
             {
                 return true;
             }
+
             else
             {
                 return false;

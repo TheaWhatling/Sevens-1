@@ -19,6 +19,7 @@ namespace Sevens
                 visible = Visibility.Hidden;
             }
             else visible = Visibility.Visible;
+
             return (Visibility)visible;
         }
 
