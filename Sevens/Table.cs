@@ -39,11 +39,45 @@ namespace Sevens
         }
         public bool EmptyTable()
         {
-            if (C[19] == null)
+            if (C[19].c == null)
             {
                 return true;
             }
             else return false;
+        }
+
+        public bool placecard(Card c)
+        {
+            int index = 0;
+
+            if (c.getPos() == 6) 
+            {
+                return true;
+            }
+            else
+            {
+                
+                    index = c.getSuit() * 13 + c.getPos();
+                    
+                    if (c.getPos()> 6 )
+                    {
+                        if (C[index - 1].c != null)
+                        {
+                            return true;
+                        }
+                        else return false;
+                    }
+                    else
+                    {
+                        if (C[index + 1].c != null)
+                        {
+                            return true;
+                        }
+                        else return false;
+                    }
+                
+               
+            }
         }
     }
 }

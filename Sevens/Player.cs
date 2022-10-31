@@ -40,11 +40,31 @@ namespace Sevens
         public Card Move()
         {
             Card temp;
-            if (table.EmptyTable()==true && hand.SearchHand(2,6) != -1)
+            bool laid = false;
+            int x = 0;
+
+            if (table.EmptyTable()==true)
             {
-                temp = hand.GetCard(hand.SearchHand(2, 6));
-                hand.SetCard(null , hand.SearchHand(2, 6));
-                table.Update(temp);
+                if (hand.SearchHand(2, 6) != -1)
+                {
+                    temp = hand.GetCard(hand.SearchHand(2, 6));
+                     hand.SetCard(null , hand.SearchHand(2, 6));
+                     table.Update(temp);
+                }
+            }
+            else
+            {
+                while (x < 13 && laid == false)
+                {
+                    temp = hand.GetCard(x);
+                    if(table.placecard(temp) == true )
+                    {
+                        hand.SetCard(null, x);
+                        table.Update(temp);
+                        laid = true;
+                    }
+                    x = x + 1;
+                }
             }
             
             return null;

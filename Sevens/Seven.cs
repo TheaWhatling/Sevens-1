@@ -34,13 +34,13 @@ namespace Sevens
         {
             deck.Shuffle();
 
-            for (int x = 0; x<51; x = x+1)
+            for (int x = 0; x<52; x = x+1)
             {
                 
                 q.addCard(deck.GetNextCard());
             }
 
-            for (int y = 0; y <8; y++)
+            for (int y = 0; y < 4; y++)
             {
                 q.move();
             }

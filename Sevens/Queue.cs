@@ -42,6 +42,7 @@ namespace Sevens
         public void addCard(Card c)
         {
             currentplayer.p.AddToHand(c);
+            currentplayer = currentplayer.next;
         }
 
         public void move()
