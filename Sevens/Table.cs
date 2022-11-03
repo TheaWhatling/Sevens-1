@@ -34,7 +34,7 @@ namespace Sevens
 
             else
             {
-                
+                //error 
             }
         }
         public bool EmptyTable()
@@ -49,15 +49,14 @@ namespace Sevens
         public bool placecard(Card c)
         {
             int index = 0;
-
+            //if 7 return true  
             if (c.getPos() == 6) 
             {
                 return true;
             }
             else
             {
-                
-                    index = c.getSuit() * 13 + c.getPos();
+                    index = c.getPos() * 13 + c.getSuit();
                     
                     if (c.getPos()> 6 )
                     {

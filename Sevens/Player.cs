@@ -39,7 +39,7 @@ namespace Sevens
 
         public Card Move()
         {
-            Card temp;
+            Card temp = null; ;
             bool laid = false;
             int x = 0;
 
@@ -50,6 +50,7 @@ namespace Sevens
                     temp = hand.GetCard(hand.SearchHand(2, 6));
                      hand.SetCard(null , hand.SearchHand(2, 6));
                      table.Update(temp);
+                    
                 }
             }
             else
@@ -66,8 +67,8 @@ namespace Sevens
                     x = x + 1;
                 }
             }
-            
-            return null;
+            if(laid == false) temp = null;
+            return temp;
         }
 
         //public void RemoveCard(Card cardToBeRemoved)
