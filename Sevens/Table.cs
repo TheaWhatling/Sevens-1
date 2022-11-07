@@ -39,7 +39,7 @@ namespace Sevens
         }
         public bool EmptyTable()
         {
-            if (C[19].c == null)
+            if (C[32].c == null)
             {
                 return true;
             }
@@ -56,7 +56,7 @@ namespace Sevens
             }
             else
             {
-                    index = c.getPos() * 13 + c.getSuit();
+                    index = c.getPos() + c.getSuit()*13;
                     
                     if (c.getPos()> 6 )
                     {

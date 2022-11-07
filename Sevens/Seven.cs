@@ -40,7 +40,7 @@ namespace Sevens
                 q.addCard(deck.GetNextCard());
             }
 
-            for (int y = 0; y <12; y++)
+            for (int y = 0; y <20; y++) // need a checkwin
             {
                 q.move();
             }

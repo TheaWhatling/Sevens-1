@@ -39,7 +39,7 @@ namespace Sevens
 
         public Card Move()
         {
-            Card temp = null; ;
+            Card temp = null; 
             bool laid = false;
             int x = 0;
 
@@ -58,12 +58,16 @@ namespace Sevens
                 while (x < 13 && laid == false)
                 {
                     temp = hand.GetCard(x);
-                    if(table.placecard(temp) == true )
+                    if (temp != null)
                     {
-                        hand.SetCard(null, x);
-                        table.Update(temp);
-                        laid = true;
+                        if(table.placecard(temp) == true )
+                        {
+                            hand.SetCard(null, x);
+                            table.Update(temp);
+                            laid = true;
+                        }
                     }
+                  
                     x = x + 1;
                 }
             }
